@@ -19,15 +19,15 @@ let username = prompt('Welcome! What name should I call you by?');
 let question1 = prompt(`${username}! Am I bigger than a breadbox?\n(y/n)`).toLowerCase();
 // console.log(question1)
 alert((question1 == 'y') ? "How'd you know!?" : "That's the wrong answer!");
-let question2 = prompt('do I have a mustache?\n(y/n)');
+let question2 = prompt('do I have a mustache?\n(y/n)').toLowerCase();
 // console.log(question2);
 alert("sometimes, true"); // both y and n are true, sometimes
-let question3 = prompt('do I wanna play Magic?\n(y/n)');
+let question3 = prompt('do I wanna play Magic?\n(y/n)').toLowerCase();
 // console.log(question3);
 alert((question3 == 'y') ? "I thought you'd never ask!" : "Do you wanna play Magic?");
-let question4 = prompt('would I rather be outside?\n(y/n)');
+let question4 = prompt('would I rather be outside?\n(y/n)').toLowerCase();
 // console.log(question4);
 alert("I'm probably outside right now!");
-let question5 = prompt("is it obvious that i'm enjoying myself?\n(y/n)");
+let question5 = prompt("is it obvious that i'm enjoying myself?\n(y/n)").toLowerCase();
 // console.log(question5);
 alert((question5 == 'y') ? `Excellent!\nThanks for coming, ${username}!` : `I'll try harder next time!\nThanks for coming, ${username}!`);
