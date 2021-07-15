@@ -2,6 +2,14 @@
 
 let score = 0;
 
+function interigate(question){
+  let answer=prompt(question);
+  check
+  return answer;
+}
+let winston= interigate('Who sent you?')
+console.log(winston)
+
 let username = prompt('Welcome! What name should I call you by?');
 // console.log(username);
 let question1 = prompt(`${username}! Am I bigger than a breadbox?\n(y/n)`).toLowerCase();
