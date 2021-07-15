@@ -10,9 +10,73 @@ body {
 
 main {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+#card {
+  position: relative;
+  height: 33rem;
+  width: 24rem;
+  background-image: url("https://i.pinimg.com/originals/46/bf/4e/46bf4e33dcc634417b20037b57ee51e1.jpg");background-position: center;
+  background-size: cover;
+
+}
+
+.card {
+  position: absolute;
+}
+
+/* #frame {
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translateX(50%) translateY(50%);
+} */
+
+#art {
+  height: 43.5%;
+  width: 83%;
+  left: 8.5%;
+  top: 12%;
+}
+
+#mana {
+  height: 5%;
+  width: 40%;
+  top: 5%;
+  right: 7%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mana {
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+
+.mana::before {
+  content: '';
+  position: absolute;
+  background-color: white;
+  height: 3.5vh;
+  width: 3.5vh;
+  border-radius: 50%;
+}
+
+.manasymbol {
+}
+
+#blackmana::before {
+  background-color: hsl(30deg 9% 75%);
+}
+
+#coffee {
+  height: 100%;
 }
 
 #bio {
